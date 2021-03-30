@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricheat.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ServerPlayNetworkHandlerMixin",
+    "NetworkThreadUtilsMixin",
+    "PlayerManagerMixin",
+    "MinecraftServerMixin",
+    "ServerWorldMixin"
+  ],
+  "client": [
+
+  ],
+  "server": [
+  
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
